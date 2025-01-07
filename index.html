@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oportunidades de Emprego</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Oportunidades de Emprego</h1>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="/EMPREGOS/jobs.html">Vagas</a></li>
+                    <li><a href="SERVICOS/service.html">Serviços</a></li>
+                    <li><a href="CURSOS/courses.html">Cursos</a></li>
+                    <li><a href="CONTATO/contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <section id="home" class="hero">
+            <h2>Encontre sua próxima oportunidade</h2>
+            <form class="search-form">
+                <input type="text" placeholder="Digite a vaga ou área desejada" />
+                <button type="submit">Buscar</button>
+            </form>
+        </section>
+
+        <!-- Seção de Empregos -->
+        <section class="job-listings">
+            <div class="no-jobs">
+                <div class="icon">
+                    <span>🚫</span>
+                </div>
+                <h2>Nenhuma vaga disponível</h2>
+                <p>
+                    No momento, não há oportunidades cadastradas. Volte mais tarde ou entre em contato conosco para mais informações.
+                </p>
+            </div>
+        </section>
+
+        <!-- Seção de Cursos -->
+        <section id="courses" class="courses-section">
+            <h2>Cursos Extracurriculares</h2>
+            <div class="courses-container">
+                <div class="course-card">
+                    <h3>Auxiliar Administrativo</h3>
+                    <p>Desenvolva habilidades para atuar no setor administrativo.</p>
+                    <button>Saiba Mais</button>
+                </div>
+                <div class="course-card">
+                    <h3>Informática Básica e Intermediária</h3>
+                    <p>Domine o uso de computadores e ferramentas essenciais.</p>
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+            <div class="see-more-courses">
+                <a href="all-courses.html" class="see-more-button">Veja Mais Cursos</a>
+            </div>
+        </section>
+        <style>
+            .see-more-courses {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.see-more-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF; /* Cor do botão */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.see-more-button:hover {
+    background-color: #0056b3; /* Cor ao passar o mouse */
+}
+
+        </style>
+
+        <!-- Seção de Serviços -->
+        <section id="services" class="services-section">
+            <h2>Serviços</h2>
+            <div class="services-container">
+                <div class="service-card">
+                    <h3>Criação de Currículos</h3>
+                    <p>Elaboramos currículos personalizados para você.</p>
+                    <button>Contratar</button>
+                </div>
+                <div class="service-card">
+                    <h3>Consultoria de Carreira</h3>
+                    <p>Receba orientações para alavancar sua carreira.</p>
+                    <button>Saiba Mais</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Oportunidades de Emprego. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
